@@ -15,9 +15,9 @@ while True:
     y = pd.DataFrame.as_matrix(y) # NumPy matrisine dönüştürelim.
 
     print(x)
-    print(y) # Ne oluşturduğumuza bakmak önemli.
+    print(y)
 
-    plt.scatter(x,y) # Ne oluşturduğumuza 2 boyutlu grafikte bakalım.
+    plt.scatter(x,y)
 
     #Doğrumuzun denklemi y = m*a+b , Biz ise en uygun m ve b yi arıyoruz. m Eğim, b kesim noktası
 
