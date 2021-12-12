@@ -23,8 +23,8 @@ while True:
 
 
     m,b = np.polyfit(x,y,1)# NumPy bizim için grafiğe oturtuyor çizgimizi. Bunu matematiksel
-    # İşlemlerle uzun uzun da yapabilirdik. Fakat NumPy halihazırda sahip. Çok kafa karıştırmamak
-    # Adına böylesi daha iyi.
+    # İşlemlerle de yapabilirdik. Fakat NumPy zaten buna sahip.
+  
     # np.polyfit(x ekseni, y ekseni, kaçıncı dereceden polinom denklemi) ki biz birinci dereceden kullanacağız.
 
 
